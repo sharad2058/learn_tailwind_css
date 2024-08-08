@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        golden: '#fdcf00',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        .bold-italic{
+
+            font-weight: bold;
+            font-style: italic;
+        }
+          
+        
+      </style>
+
+
+
+    <title>Tailwind CSS</title>
+</head>
+
+<body>
+    <h1 class="text-center text-2xl lg:text-4xl font-bold bold-italic text-golden mt-4">Learning Tailwind CSS</h1>
+    <h2>Customize Tailwind CSS</h2>
+    <p class=" text-center text-red-500 bold-italic">
+        I am excited to learn Tailwind CSS
+    </p>
+    <button disabled
+        class="bg-golden p-2 rounded-md hover:bg-black hover:text-white transition-all delay-150 ease-in-out text-center">Visit
+        My Profile</button>
+</body>
+
+</html>
